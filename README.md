@@ -1,0 +1,2 @@
+# Scala Implicit Resolution Bug
+This repository demonstrates a common Scala error related to implicit resolution failure.  The `MyClass` attempts to utilize an implicit conversion within the `myMethod` function. However, an appropriate implicit conversion from String to Int is not available, resulting in a compilation error. The `bugSolution.scala` file provides a corrected version.
